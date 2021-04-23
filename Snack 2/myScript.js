@@ -56,7 +56,7 @@ var zucchine =
             lunghezza: 19
         }
 
-    ]
+    ];
 
 
 var arrayZucchineGrandi = [''];
@@ -78,5 +78,5 @@ console.log("ZUCCHINE MEDIE");
 console.log(arrayZucchineMedie);
 console.log("ZUCCHINE GRANDI");
 console.log(arrayZucchineGrandi);
-console.log("ZUCCHINE PICCOLE");
-console.log(arrayZucchinePiccole);
+console.log("ZUCCHINE MEDIE");
+console.log(arrayZucchineMedie);
