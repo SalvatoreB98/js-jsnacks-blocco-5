@@ -59,9 +59,9 @@ var zucchine =
     ];
 
 
-var arrayZucchineGrandi = [''];
-var arrayZucchinePiccole = [''];
-var arrayZucchineMedie = [''];
+var arrayZucchineGrandi = [];
+var arrayZucchinePiccole = [];
+var arrayZucchineMedie = [];
 
 for (var i = 0; i < zucchine.length; i++) 
 {
