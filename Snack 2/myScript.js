@@ -3,7 +3,7 @@
 // Dividi in due array separati le zucchine che misurano meno o più di 15cm.
 // Infine stampa separatamente quanto pesano i due gruppi di zucchine. (modificato) 
 
-zucchine =
+var zucchine =
     [
         {
             tipo: 'Zucchino nero di Milano',
@@ -24,7 +24,8 @@ zucchine =
             tipo: 'Zucchino siciliano',
             peso: 0.9,
             lunghezza: 15
-        }, {
+        }, 
+        {
             tipo: 'Zucchina striata di Napoli',
             peso: 0.5,
             lunghezza: 14
@@ -57,4 +58,25 @@ zucchine =
 
     ]
 
-    
+
+var arrayZucchineGrandi = [''];
+var arrayZucchinePiccole = [''];
+var arrayZucchineMedie = [''];
+
+for (var i = 0; i < zucchine.length; i++) 
+{
+    if (zucchine[i].lunghezza > 15) {
+        arrayZucchineGrandi.push(zucchine[i]);
+    } else if (zucchine[i].lunghezza < 15) {
+        arrayZucchinePiccole.push(zucchine[i]);
+    }
+    else{
+        arrayZucchineMedie.push(zucchine[i]);
+    }
+}
+console.log("ZUCCHINE MEDIE");
+console.log(arrayZucchineMedie);
+console.log("ZUCCHINE GRANDI");
+console.log(arrayZucchineGrandi);
+console.log("ZUCCHINE PICCOLE");
+console.log(arrayZucchinePiccole);
