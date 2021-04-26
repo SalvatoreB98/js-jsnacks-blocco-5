@@ -82,12 +82,12 @@ for (var i = 0; i < zucchine.length; i++)
 }
 console.log("ZUCCHINE MEDIE");
 console.log(arrayZucchineMedie);
-console.log("PESO TOTALE: " + pesoZucchineMedie);
+console.log("PESO TOTALE: " + pesoZucchineMedie+ " Kg");
 
 console.log("ZUCCHINE GRANDI");
 console.log(arrayZucchineGrandi);
-console.log("PESO TOTALE: " + pesoZucchineGrandi);
+console.log("PESO TOTALE: " + pesoZucchineGrandi+ " Kg");
 
 console.log("ZUCCHINE PICCOLE");
 console.log(arrayZucchinePiccole);
-console.log("PESO TOTALE: " + pesoZucchinePiccole);
+console.log("PESO TOTALE: " + pesoZucchinePiccole + " Kg");
