@@ -62,21 +62,32 @@ var zucchine =
 var arrayZucchineGrandi = [];
 var arrayZucchinePiccole = [];
 var arrayZucchineMedie = [];
+var pesoZucchineGrandi=0;
+var pesoZucchinePiccole=0;
+var pesoZucchineMedie=0;
 
 for (var i = 0; i < zucchine.length; i++) 
 {
     if (zucchine[i].lunghezza > 15) {
         arrayZucchineGrandi.push(zucchine[i]);
+        pesoZucchineGrandi+=zucchine[i].peso;
     } else if (zucchine[i].lunghezza < 15) {
         arrayZucchinePiccole.push(zucchine[i]);
+        pesoZucchinePiccole+=zucchine[i].peso;
     }
     else{
         arrayZucchineMedie.push(zucchine[i]);
+        pesoZucchineMedie+=zucchine[i].peso;
     }
 }
 console.log("ZUCCHINE MEDIE");
 console.log(arrayZucchineMedie);
+console.log("PESO TOTALE: " + pesoZucchineMedie);
+
 console.log("ZUCCHINE GRANDI");
 console.log(arrayZucchineGrandi);
-console.log("ZUCCHINE MEDIE");
-console.log(arrayZucchineMedie);
+console.log("PESO TOTALE: " + pesoZucchineGrandi);
+
+console.log("ZUCCHINE PICCOLE");
+console.log(arrayZucchinePiccole);
+console.log("PESO TOTALE: " + pesoZucchinePiccole);
